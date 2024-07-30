@@ -212,7 +212,7 @@ if selected_option == "Login":
                 with open(file_name) as f:
                     st.markdown(f"<style>{f.read()}</style>",unsafe_allow_html=True)
 
-            local_css("/Users/aditirajesh/Desktop/program_files/RiWork/style/style.css")
+            local_css("stylesheet_filepath")
 
             st.subheader(':red[Employee and Company Details: ]')
             col7,col8 = st.columns(2)
@@ -236,9 +236,9 @@ if selected_option == "Login":
                 st.subheader(":red[Contact through phone :phone:]")
                 col1,col2 = st.columns(2)
                 with col1:
-                    st.write("Contact number  1: 7010821856")
-                    st.write("Contact number  2: 9092093093")
-                    st.write("Contact number 3: 9840236063")
+                    st.write("Contact number  1: xxxxxxxxxx")
+                    st.write("Contact number  2: xxxxxxxxxx")
+                    st.write("Contact number 3: xxxxxxxxxx")
 
                 with col2:
                     st.write("Name: Aditi Rajesh")
